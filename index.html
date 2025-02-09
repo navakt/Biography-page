@@ -3,46 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - Biography</title>
-    <link rel="stylesheet" href="style.css">
+    <title>John Doe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>John Doe</h1>
-            <div class="profile-pic">
-                <img src="download.jpg" alt="John Doe's Profile Picture">
+            <div class="profile">
+                <img src="download.jpg" alt="John Doe" class="profile-img">
+                <h1>John Doe</h1>
+                <p class="tagline">Web Developer</p>
             </div>
         </header>
 
-        <section class="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm John Doe, a passionate web developer with 5 years of experience in creating beautiful and functional websites. I specialize in front-end development and love turning complex problems into simple, beautiful solutions.</p>
-        </section>
+        <main>
+            <section class="card">
+                <h2>👋 About Me</h2>
+                <p>A passionate developer creating web experiences that matter. 5+ years of turning ideas into reality.</p>
+            </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript (ES6+)</li>
-                <li>React.js</li>
-                <li>Responsive Design</li>
-                <li>UI/UX Principles</li>
-            </ul>
-        </section>
+            <section class="card">
+                <h2>🛠 Skills</h2>
+                <div class="skills">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>UI/UX</span>
+                </div>
+            </section>
 
-        <section class="education">
-            <h2>Education</h2>
-            <p>Bachelor of Science in Computer Science<br>
-            University of Technology, 2015-2019</p>
-        </section>
+            <section class="card">
+                <h2>📚 Education</h2>
+                <p>B.Sc Computer Science<br>
+                University of Tech (2015-2019)</p>
+            </section>
 
-        <section class="contact">
-            <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
-            <p>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></p>
-        </section>
+            <section class="card">
+                <h2>📬 Contact</h2>
+                <div class="contact-links">
+                    <a href="mailto:john@example.com">john@example.com</a>
+                    <a href="https://linkedin.com/in/johndoe">LinkedIn</a>
+                    <a href="https://github.com/johndoe">GitHub</a>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 </html>
